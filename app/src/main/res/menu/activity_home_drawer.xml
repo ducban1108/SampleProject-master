@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/adduser"
+            android:title="Thêm người dùng" />
+        <item
+            android:id="@+id/nav_type"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Thêm thể loại" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/addbook"
+            android:title="Thêm sách" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_changepass"
+                android:icon="@drawable/changepass"
+                android:title="Đổi mật khẩu" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Giới thiệu" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logouticon"
+                android:title="Đăng xuất" />
+        </menu>
+    </item>
+
+</menu>

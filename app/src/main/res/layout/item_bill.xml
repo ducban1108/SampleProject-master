@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="BMEW \n 10/34/343" />
+
+
+    <ImageView
+        android:id="@+id/btnDel"
+        android:src="@drawable/thungrac"
+        android:layout_width="30dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>
